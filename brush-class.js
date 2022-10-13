@@ -43,6 +43,11 @@
                 await element.click();
             }
 
+            /**
+             * TODO: 待测试,待完善
+             * 上方循环点击太快加上setTimeout 才能观察到是否点击了
+             * 待测试直接循环点击是否计算入已看完视频
+             */
             setTimeout(() => {
 
 
